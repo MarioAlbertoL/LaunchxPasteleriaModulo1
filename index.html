@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Fonts google sofia-->
+<link rel="stylesheet" href="css/mystyle.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+    <p>
+      <img src="/frontendmission/img/Captura.PNG" alt="logo" width="120px" height="120px"></p>
+    <h1>Pasteleria Maratel</h1>
+    
+</div>
+<!-- <div class="header">
+  <h1>Pasteleria Maraltel</h1>
+  <p>Donde de sabores se vive</p>
+  
+</div> -->
+
+<div class="topnav" id="myTopnav">
+  <a href="#"><i class="fa fa-fw fa-home"></i>Inicio</a>
+  <a href="/frontendmission/pedido.html"><i class="fa-solid fa-utensils"></i>   Realizar pedido</a>
+  <a href="/frontendmission/test.html"> <i class="fa-solid fa-user"></i> Admin Dashboard</a>
+  <a href="#" style="float:right"><i class="fa-solid fa-circle-info"></i> Acerca de nosotros</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<div class="inicio">
+<h2>⭑ De donde sabores se vive ⭑</h2>
+<br>
+</div>
+<div class="row">
+  <div class="column">
+<div class="card">
+  <img src="/frontendmission/img/chocolate2.jpg" alt="chocolate" style="width:100%">
+  <div class="containerindex">
+  <h1>Chocolate</h1>
+  <p class="price">$$$$</p>
+  <p>Pan de chocolate con relleno de lechecilla</p>
+  <p><button>Ordenar</button></p>
+</div>
+</div>
+</div>
+
+
+
+  <div class="column">
+<div class="card">
+  <img src="/frontendmission/img/fresa2.jpg" alt="fresa" style="width:100%">
+  <div class="containerindex">
+  <h1>Fresa</h1>
+  <p class="price">$$$$</p>
+  <p>Delicioso pastel, pan normal con envoltura de fresa y adornos</p>
+  <p><button>Ordenar</button></p>
+</div>
+</div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="/frontendmission/img/vainilla2.jpg" alt="vainilla" style="width:100%">
+    <div class="containerindex">
+    <h1>Vainilla</h1>
+    <p class="price">$$$$</p>
+    <p> pastel de vainilla con detalles de chocolate y relleno sorpresa</p>
+    <p><button>Ordenar</button></p>
+  </div>
+  </div>
+  </div>
+
+
+
+  <div class="column">
+<div class="card">
+  <img src="/frontendmission/img/moka2.jpg" alt="cafemoka" style="width:100%">
+  <div class="containerindex">
+  <h1>Cafe Moka</h1>
+  <p class="price">$$$$</p>
+  <p>¡Especial! !Delicioso pastel sabor café moka!</p>
+  <p><button>Ordenar</button></p>
+</div>
+</div>
+</div>
+</div>
+
+<!--Opcion de decoraciones-->
+
+<div class="inicio">
+  <h2>⭑ De donde sabores se vive ⭑</h2>
+  </div>
+
+<div class="row">
+  <div class="column">
+<div class="card">
+  <img src="https://fakeimg.pl/350x200/?text=Decoracion1" alt="chocolate" style="width:100%">
+  <div class="containerindex">
+  <h1>Decoracion1</h1>
+  <p class="price">$$$$</p>
+  <p>Detalles de colores</p>
+  <p><button>Ordenar</button></p>
+</div>
+</div>
+</div>
+
+
+<div class="column">
+  <div class="card">
+    <img src="https://fakeimg.pl/350x200/?text=Decoracion2" alt="chocolate" style="width:100%">
+    <div class="containerindex">
+    <h1>Decoracion2</h1>
+    <p class="price">$$$$</p>
+    <p>Adornos personalizados</p>
+    <p><button>Ordenar</button></p>
+  </div>
+  </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://fakeimg.pl/350x200/?text=Decoracion3" alt="chocolate" style="width:100%">
+      <div class="containerindex">
+      <h1>Decoracion3</h1>
+      <p class="price">$$$$</p>
+      <p>Convinacion de sabores</p>
+      <p><button>Ordenar</button></p>
+    </div>
+    </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="https://fakeimg.pl/350x200/?text=Decoracion4" alt="chocolate" style="width:100%">
+        <div class="containerindex">
+        <h1>Decoracion4</h1>
+        <p class="price">$$$$</p>
+        <p>lo que el cliente quiera</p>
+        <p><button>Ordenar</button></p>
+      </div>
+      </div>
+      </div>
+
+
+</div>
+
+
+
+<div class="footer">
+  <h2 style="font-size: small; font-style: italic;">Pagina creada por Mario Alberto Antonio Lopez para modulo-1 de launchx</h2>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
+
+

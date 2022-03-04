@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="css/mystyle.css">
+<link rel="stylesheet" href="css/all.min.css">
+<style>
+
+
+</style>
+
+
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="/frontendmission/index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+  <a href="https://marioalbertol.github.io/LauchxPasteleria/pedido.html"><i class="fa-solid fa-utensils"></i>   Realizar pedido</a>
+  <a href="https://marioalbertol.github.io/LauchxPasteleria/test.html"> <i class="fa-solid fa-user"></i> Admin Dashboard</a>
+  <a href="https://marioalbertol.github.io/LauchxPasteleria/aboutus.html" style="float:right"><i class="fa-solid fa-circle-info"></i> Acerca de nosotros</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+	<div class="buyitems" style="overflow-x: auto;">
+
+		<table id="customers">
+			<tr>
+				<th>N° de orden</th>
+				<th>Cliente</th>
+				<th>Producto</th>
+				<th>Total</th>
+				<th colspan="2">Opciones</th>
+			</tr>
+			<tr>
+				<td style="text-align: center;">#</td>
+				<td>Fernando de la rosa</td>
+				<td>3 productos</td>
+				<td>$200 pesos </td>
+				<td><a href="#" class="button">Ver orden</a></td>
+				<td><a href="#" class="button button2">Enviar Nota</a></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;">#</td>
+				<td>Mario Alberto</td>
+				<td>1 producto</td>
+				<td>$120 pesos </td>
+				<td><a href="#" class="button">Ver orden</a></td>
+				<td><a href="#" class="button button2">Enviar Nota</a></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;">#</td>
+				<td>Gema  Sarai</td>
+				<td>4 productos</td>
+				<td>$220 pesos </td>
+				<td><a href="#" class="button">Ver orden</a></td>
+				<td><a href="#" class="button button2">Enviar Nota</a></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;">#</td>
+				<td>Oscar Lopez</td>
+				<td>2 productos</td>
+				<td>$180 pesos </td>
+				<td><a href="#" class="button">Ver orden</a></td>
+				<td><a href="#" class="button button2">Enviar Nota</a></td>
+			</tr>
+		</table>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+</body>	
+</html>
